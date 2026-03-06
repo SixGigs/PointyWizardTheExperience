@@ -1,12 +1,13 @@
 {
   "FolderOrderSettings":[
-    {"name":"Sprites","order":7,"path":"folders/Sprites.yy",},
+    {"name":"Player","order":9,"path":"folders/Player.yy",},
     {"name":"Rooms","order":5,"path":"folders/Rooms.yy",},
+    {"name":"Sprites","order":7,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"oPlayer","order":2,"path":"objects/oPlayer/oPlayer.yy",},
     {"name":"oSolidWall","order":8,"path":"objects/oSolidWall/oSolidWall.yy",},
     {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},
+    {"name":"sPlayerDown","order":1,"path":"sprites/sPlayerDown/sPlayerDown.yy",},
     {"name":"sSolidWall","order":1,"path":"sprites/sSolidWall/sSolidWall.yy",},
     {"name":"sWall","order":2,"path":"sprites/sWall/sWall.yy",},
   ],

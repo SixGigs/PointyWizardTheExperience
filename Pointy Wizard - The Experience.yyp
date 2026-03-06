@@ -10,15 +10,16 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Player","folderPath":"folders/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.1400.4.1003",
   },
   "name":"Pointy Wizard - The Experience",
   "resources":[
@@ -27,6 +28,7 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"sPlayerDown","path":"sprites/sPlayerDown/sPlayerDown.yy",},},
     {"id":{"name":"sSolidWall","path":"sprites/sSolidWall/sSolidWall.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
   ],

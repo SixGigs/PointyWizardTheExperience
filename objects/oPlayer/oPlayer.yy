@@ -9,8 +9,8 @@
   "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pointy Wizard - The Experience",
-    "path":"Pointy Wizard - The Experience.yyp",
+    "name":"Player",
+    "path":"folders/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
