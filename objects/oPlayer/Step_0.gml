@@ -7,6 +7,7 @@ downKey  = keyboard_check(ord("S"));
 
 
 // Player movement
+#region
 // Get the player movement direction
 var _horizKey = rightKey - leftKey;
 var _vertKey  = downKey  - upKey;
@@ -28,3 +29,12 @@ if place_meeting(x, y + ySpd, oWall) { ySpd = 0; }
 // Move the player
 x += xSpd;
 y += ySpd;
+#endregion
+
+// Sprite control
+// Make sure the player is facing the correct direction
+face = round(moveDir / 22.5);
+if face == 16 { face = 0; }
+
+// Set the player sprite
+sprite_index = sprite[face];
