@@ -34,6 +34,9 @@
     "name":"sPointy12",
     "path":"sprites/sPointy12/sPointy12.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sPointy12",
+    "path":"sprites/sPointy12/sPointy12.yy",
+  },
   "visible":true,
 }
