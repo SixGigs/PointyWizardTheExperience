@@ -6,7 +6,6 @@
   "ResourceOrderSettings":[
     {"name":"oSolidWall","order":4,"path":"objects/oSolidWall/oSolidWall.yy",},
     {"name":"oWall","order":3,"path":"objects/oWall/oWall.yy",},
-    {"name":"sPlayer","order":1,"path":"sprites/sPlayer/sPlayer.yy",},
     {"name":"sPointy0","order":2,"path":"sprites/sPointy0/sPointy0.yy",},
     {"name":"sPointy1","order":3,"path":"sprites/sPointy1/sPointy1.yy",},
     {"name":"sPointy10","order":12,"path":"sprites/sPointy10/sPointy10.yy",},

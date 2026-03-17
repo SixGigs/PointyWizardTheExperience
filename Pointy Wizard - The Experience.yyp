@@ -27,7 +27,6 @@
     {"id":{"name":"oSolidWall","path":"objects/oSolidWall/oSolidWall.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sPointy0","path":"sprites/sPointy0/sPointy0.yy",},},
     {"id":{"name":"sPointy1","path":"sprites/sPointy1/sPointy1.yy",},},
     {"id":{"name":"sPointy10","path":"sprites/sPointy10/sPointy10.yy",},},

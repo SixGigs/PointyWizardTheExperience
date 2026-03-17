@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer",
-    "path":"sprites/sPlayer/sPlayer.yy",
+    "name":"sPointy12",
+    "path":"sprites/sPointy12/sPointy12.yy",
   },
   "spriteMaskId":null,
   "visible":true,
