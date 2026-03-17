@@ -31,10 +31,14 @@ x += xSpd;
 y += ySpd;
 #endregion
 
+
+
 // Sprite control
+#region
 // Make sure the player is facing the correct direction
 face = round(moveDir / 22.5);
 if face == 16 { face = 0; }
 
 // Set the player sprite
 sprite_index = sprite[face];
+#endregion
