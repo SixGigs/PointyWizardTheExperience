@@ -39,6 +39,11 @@ y += ySpd;
 face = round(moveDir / 22.5);
 if face == 16 { face = 0; }
 
+// Animate
+if xSpd == 0 && ySpd == 0 {
+	image_index = 0;
+}
+
 // Set the player sprite
 sprite_index = sprite[face];
 #endregion
