@@ -5,6 +5,11 @@ xSpd = 0;
 ySpd = 0;
 
 // Sprite control
+centerYOffset = -29;
+centerY = y + centerYOffset; // Set in step event
+
+aimDir = 0;
+
 face = 12;
 sprite[0] = sPointy0;
 sprite[1] = sPointy1;
