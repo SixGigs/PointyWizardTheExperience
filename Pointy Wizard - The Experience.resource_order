@@ -22,6 +22,7 @@
     {"name":"sPointy7","order":9,"path":"sprites/sPointy7/sPointy7.yy",},
     {"name":"sPointy8","order":10,"path":"sprites/sPointy8/sPointy8.yy",},
     {"name":"sPointy9","order":11,"path":"sprites/sPointy9/sPointy9.yy",},
+    {"name":"sPointyWand","order":18,"path":"sprites/sPointyWand/sPointyWand.yy",},
     {"name":"sSolidWall","order":1,"path":"sprites/sSolidWall/sSolidWall.yy",},
     {"name":"sWall","order":2,"path":"sprites/sWall/sWall.yy",},
   ],
