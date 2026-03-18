@@ -32,11 +32,18 @@ y += ySpd;
 #endregion
 
 
+// Player aiming
+centerY = y + centerYOffset;
+
+// Aim
+aimDir  = point_direction(x, centerY, mouse_x, mouse_y);
+
+
 
 // Sprite control
 #region
 // Make sure the player is facing the correct direction
-face = round(moveDir / 22.5);
+face = round(aimDir / 22.5);
 if face == 16 { face = 0; }
 
 // Animate
