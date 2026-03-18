@@ -43,6 +43,7 @@
     {"id":{"name":"sPointy7","path":"sprites/sPointy7/sPointy7.yy",},},
     {"id":{"name":"sPointy8","path":"sprites/sPointy8/sPointy8.yy",},},
     {"id":{"name":"sPointy9","path":"sprites/sPointy9/sPointy9.yy",},},
+    {"id":{"name":"sPointyWand","path":"sprites/sPointyWand/sPointyWand.yy",},},
     {"id":{"name":"sSolidWall","path":"sprites/sSolidWall/sSolidWall.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
   ],
