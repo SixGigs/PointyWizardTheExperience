@@ -8,7 +8,7 @@ ySpd = 0;
 centerYOffset = -35;
 centerY = y + centerYOffset; // Set in step event
 
-weaponOffsetDist = 4;
+weaponOffsetDist = 2;
 aimDir = 0;
 
 face = 12;
