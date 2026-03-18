@@ -5,7 +5,7 @@ xSpd = 0;
 ySpd = 0;
 
 // Sprite control
-centerYOffset = -29;
+centerYOffset = -35;
 centerY = y + centerYOffset; // Set in step event
 
 aimDir = 0;
