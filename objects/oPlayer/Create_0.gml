@@ -5,7 +5,7 @@ xSpd = 0;
 ySpd = 0;
 
 // Sprite control
-centerYOffset = -35;
+centerYOffset = -34;
 centerY = y + centerYOffset; // Set in step event
 
 weaponOffsetDist = 2;
