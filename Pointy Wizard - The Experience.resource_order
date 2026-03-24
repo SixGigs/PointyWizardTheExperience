@@ -1,12 +1,13 @@
 {
   "FolderOrderSettings":[
+    {"name":"Projectiles","order":4,"path":"folders/Projectiles.yy",},
+    {"name":"Props","order":3,"path":"folders/Props.yy",},
+    {"name":"Walls","order":3,"path":"folders/Props/Walls.yy",},
     {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
-    {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"oSolidWall","order":4,"path":"objects/oSolidWall/oSolidWall.yy",},
-    {"name":"oWall","order":3,"path":"objects/oWall/oWall.yy",},
-    {"name":"custom_functions","order":5,"path":"scripts/custom_functions/custom_functions.yy",},
+    {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"custom_functions","order":2,"path":"scripts/custom_functions/custom_functions.yy",},
     {"name":"sPointy0","order":2,"path":"sprites/sPointy0/sPointy0.yy",},
     {"name":"sPointy1","order":3,"path":"sprites/sPointy1/sPointy1.yy",},
     {"name":"sPointy10","order":12,"path":"sprites/sPointy10/sPointy10.yy",},
@@ -24,7 +25,7 @@
     {"name":"sPointy8","order":10,"path":"sprites/sPointy8/sPointy8.yy",},
     {"name":"sPointy9","order":11,"path":"sprites/sPointy9/sPointy9.yy",},
     {"name":"sPointyWand","order":18,"path":"sprites/sPointyWand/sPointyWand.yy",},
-    {"name":"sSolidWall","order":1,"path":"sprites/sSolidWall/sSolidWall.yy",},
-    {"name":"sWall","order":2,"path":"sprites/sWall/sWall.yy",},
+    {"name":"sSolidWall","order":2,"path":"sprites/sSolidWall/sSolidWall.yy",},
+    {"name":"sWall","order":3,"path":"sprites/sWall/sWall.yy",},
   ],
 }

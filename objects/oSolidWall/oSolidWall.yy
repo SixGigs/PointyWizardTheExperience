@@ -6,8 +6,8 @@
   "name":"oSolidWall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pointy Wizard - The Experience",
-    "path":"Pointy Wizard - The Experience.yyp",
+    "name":"Walls",
+    "path":"folders/Props/Walls.yy",
   },
   "parentObjectId":{
     "name":"oWall",
