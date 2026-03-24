@@ -3,7 +3,7 @@ rightKey = keyboard_check(ord("D"));
 leftKey  = keyboard_check(ord("A"));
 upKey    = keyboard_check(ord("W"));
 downKey  = keyboard_check(ord("S"));
-
+shootKey = mouse_check_button( mb_left );
 
 
 // Player movement
@@ -29,7 +29,6 @@ if place_meeting(x, y + ySpd, oWall) { ySpd = 0; }
 // Move the player
 x += xSpd;
 y += ySpd;
-
 // Depth
 depth = -bbox_bottom; // bbox means Bounding Box
 
@@ -57,4 +56,21 @@ if xSpd == 0 && ySpd == 0 {
 
 // Set the player sprite
 sprite_index = sprite[face];
+#endregion
+
+// Weapon firing
+#region
+if(shootTimer > 0) { shootTimer--; }
+if(shootKey && shootTimer <= 0)
+{
+	// Reset cooldown
+	shootTimer = shootCooldown;
+	
+	// Spawn projectile and set its direction
+	var spawnedProjectile = instance_create_depth(x, centerY, depth-100, oProjectile);
+	with(spawnedProjectile)
+	{
+		dir = other.aimDir;
+	}
+}
 #endregion
