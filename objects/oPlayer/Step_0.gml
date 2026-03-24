@@ -29,7 +29,6 @@ if place_meeting(x, y + ySpd, oWall) { ySpd = 0; }
 // Move the player
 x += xSpd;
 y += ySpd;
-
 // Depth
 depth = -bbox_bottom; // bbox means Bounding Box
 
