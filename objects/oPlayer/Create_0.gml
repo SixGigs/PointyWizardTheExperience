@@ -29,3 +29,7 @@ sprite[12] = sPointy12;
 sprite[13] = sPointy13;
 sprite[14] = sPointy14;
 sprite[15] = sPointy15;
+
+// Weapon info
+shootTimer = 0;
+shootCooldown = 10;

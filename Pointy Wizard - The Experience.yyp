@@ -10,8 +10,8 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"Projectiles","folderPath":"folders/Projectiles.yy","name":"Projectiles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Projectiles","folderPath":"folders/Projectiles.yy","name":"Projectiles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Props","folderPath":"folders/Props.yy","name":"Props","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Walls","folderPath":"folders/Props/Walls.yy","name":"Walls","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -26,6 +26,7 @@
   "name":"Pointy Wizard - The Experience",
   "resources":[
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oProjectile","path":"objects/oProjectile/oProjectile.yy",},},
     {"id":{"name":"oSolidWall","path":"objects/oSolidWall/oSolidWall.yy",},},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -47,6 +48,7 @@
     {"id":{"name":"sPointy8","path":"sprites/sPointy8/sPointy8.yy",},},
     {"id":{"name":"sPointy9","path":"sprites/sPointy9/sPointy9.yy",},},
     {"id":{"name":"sPointyWand","path":"sprites/sPointyWand/sPointyWand.yy",},},
+    {"id":{"name":"sProjectile","path":"sprites/sProjectile/sProjectile.yy",},},
     {"id":{"name":"sSolidWall","path":"sprites/sSolidWall/sSolidWall.yy",},},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},},
   ],
