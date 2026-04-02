@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oProjectile",
+  "%Name":"oBlueBullet",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oProjectile",
+  "name":"oBlueBullet",
   "overriddenProperties":[],
   "parent":{
     "name":"Projectiles",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sProjectile",
-    "path":"sprites/sProjectile/sProjectile.yy",
+    "name":"sBlueBullet",
+    "path":"sprites/sBlueBullet/sBlueBullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,
