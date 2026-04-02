@@ -1,12 +1,12 @@
-// Get inputs
+//get inputs
 rightKey = keyboard_check(ord("D"));
 leftKey  = keyboard_check(ord("A"));
 upKey    = keyboard_check(ord("W"));
 downKey  = keyboard_check(ord("S"));
-shootKey = mouse_check_button( mb_left );
+shootKey = mouse_check_button(mb_left);
 
 
-// Player movement
+//player movement
 #region
 // Get the player movement direction
 var _horizKey = rightKey - leftKey;
@@ -28,49 +28,53 @@ if place_meeting(x, y + ySpd, oWall) { ySpd = 0; }
 
 // Move the player
 x += xSpd;
-y += ySpd;
+y += ySpd
+
 // Depth
 depth = -bbox_bottom; // bbox means Bounding Box
 
 #endregion
 
 
-// Player aiming
-centerY = y + centerYOffset;
-
-// Aim
-aimDir  = point_direction(x, centerY, mouse_x, mouse_y);
-
-
-
-// Sprite control
+//sprite control
 #region
-// Make sure the player is facing the correct direction
-face = round(aimDir / 22.5);
-if face == 16 { face = 0; }
+	//player aiming
+		centerY = y + centerYOffset;
+		aimDir  = point_direction(x, centerY, mouse_x, mouse_y);
 
-// Animate
-if xSpd == 0 && ySpd == 0 {
-	image_index = 0;
-}
+	//make sure the player is facing the correct direction
+		face = round(aimDir / 22.5);
+		if face == 16 { face = 0; }
 
-// Set the player sprite
-sprite_index = sprite[face];
+	//animate
+		if xSpd == 0 && ySpd == 0
+		{
+			image_index = 0;
+		}
+
+	// Set the player sprite
+		mask_index   = sprite[12];
+		sprite_index = sprite[face];
 #endregion
 
-// Weapon firing
+
+//weapon firing
 #region
-if(shootTimer > 0) { shootTimer--; }
-if(shootKey && shootTimer <= 0)
-{
-	// Reset cooldown
-	shootTimer = shootCooldown;
-	
-	// Spawn projectile and set its direction
-	var spawnedProjectile = instance_create_depth(x, centerY, depth-100, oProjectile);
-	with(spawnedProjectile)
+	if shootTimer > 0 { shootTimer--; }
+	if shootKey && shootTimer <= 0
 	{
-		dir = other.aimDir;
+		// Reset cooldown
+		shootTimer = shootCooldown;
+
+		//create the bullet
+		var _xOffset = lengthdir_x(weaponLength + weaponOffsetDist, aimDir);
+		var _yOffset = lengthdir_y(weaponLength + weaponOffsetDist, aimDir);
+		var _bulletInst = instance_create_depth(x - 3 + _xOffset, centerY + _yOffset, depth-100, bulletObj);
+
+		//change the bullet's direction
+		with(_bulletInst)
+		{
+			dir = other.aimDir;
+		}
 	}
-}
 #endregion

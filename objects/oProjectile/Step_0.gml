@@ -1,3 +1,4 @@
+//move
 velocityX = lengthdir_x(baseSpeed, dir);
 velocityY = lengthdir_y(baseSpeed, dir);
 
@@ -8,13 +9,13 @@ y += velocityY * deltaSeconds;
 
 // Destroy conditions
 // Wall collision
-if (place_meeting(x, y, oSolidWall))
-{	
+if place_meeting(x, y, oSolidWall)
+{
 	shouldDestroy = true;
 }
 
 // Max distance
-if (point_distance(xstart, ystart, x, y) > maxDistance)
+if point_distance(xstart, ystart, x, y) > maxDistance
 {
 	shouldDestroy = true;
 }
