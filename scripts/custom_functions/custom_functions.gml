@@ -3,8 +3,8 @@ function draw_my_weapon()
 {
 	// Draw the weapon
 	// Get the weapon off the player's body
-	var _xOffset = lengthdir_x(weaponOffsetDistX, aimDir);
-	var _yOffset = lengthdir_y(weaponOffsetDistY, aimDir);
+	var _xOffset = lengthdir_x(weaponOffsetDist, aimDir);
+	var _yOffset = lengthdir_y(weaponOffsetDist, aimDir);
 
 	// Flip the weapon upright
 	var _weaponYscl = 1;
