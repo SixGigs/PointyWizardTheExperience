@@ -25,8 +25,13 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
+<<<<<<< HEAD
     "name":"Sprites",
     "path":"folders/Sprites.yy",
+=======
+    "name":"Walls",
+    "path":"folders/Props/Walls.yy",
+>>>>>>> bullets-and-shooting
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

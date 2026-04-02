@@ -22,11 +22,38 @@
     {"$GMImageLayer":"","%Name":"925f1fbf-8e74-48ce-87b3-cdecdd95133f","blendMode":0,"displayName":"default","isLocked":false,"name":"925f1fbf-8e74-48ce-87b3-cdecdd95133f","opacity":50.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sSolidWall",
+<<<<<<< HEAD
   "nineSlice":null,
   "origin":0,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
+=======
+  "nineSlice":{
+    "$GMNineSliceData":"",
+    "bottom":0,
+    "enabled":false,
+    "guideColour":[4294902015,4294902015,4294902015,4294902015,],
+    "highlightColour":1728023040,
+    "highlightStyle":0,
+    "left":0,
+    "resourceType":"GMNineSliceData",
+    "resourceVersion":"2.0",
+    "right":0,
+    "tileMode":[
+      0,
+      0,
+      0,
+      0,
+      0,
+    ],
+    "top":0,
+  },
+  "origin":0,
+  "parent":{
+    "name":"Walls",
+    "path":"folders/Props/Walls.yy",
+>>>>>>> bullets-and-shooting
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

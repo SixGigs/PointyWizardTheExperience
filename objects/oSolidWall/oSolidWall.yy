@@ -6,8 +6,13 @@
   "name":"oSolidWall",
   "overriddenProperties":[],
   "parent":{
+<<<<<<< HEAD
     "name":"Pointy Wizard - The Experience",
     "path":"Pointy Wizard - The Experience.yyp",
+=======
+    "name":"Walls",
+    "path":"folders/Props/Walls.yy",
+>>>>>>> bullets-and-shooting
   },
   "parentObjectId":{
     "name":"oWall",

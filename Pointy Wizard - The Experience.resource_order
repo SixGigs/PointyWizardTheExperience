@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+<<<<<<< HEAD
     {"name":"Sprites","order":7,"path":"folders/Sprites.yy",},
     {"name":"Rooms","order":5,"path":"folders/Rooms.yy",},
   ],
@@ -9,5 +10,35 @@
     {"name":"oWall","order":4,"path":"objects/oWall/oWall.yy",},
     {"name":"sSolidWall","order":1,"path":"sprites/sSolidWall/sSolidWall.yy",},
     {"name":"sWall","order":2,"path":"sprites/sWall/sWall.yy",},
+=======
+    {"name":"Projectiles","order":4,"path":"folders/Projectiles.yy",},
+    {"name":"Props","order":3,"path":"folders/Props.yy",},
+    {"name":"Walls","order":3,"path":"folders/Props/Walls.yy",},
+    {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"oBlueBullet","order":1,"path":"objects/oBlueBullet/oBlueBullet.yy",},
+    {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"custom_functions","order":2,"path":"scripts/custom_functions/custom_functions.yy",},
+    {"name":"sPointy0","order":2,"path":"sprites/sPointy0/sPointy0.yy",},
+    {"name":"sPointy1","order":3,"path":"sprites/sPointy1/sPointy1.yy",},
+    {"name":"sPointy10","order":12,"path":"sprites/sPointy10/sPointy10.yy",},
+    {"name":"sPointy11","order":13,"path":"sprites/sPointy11/sPointy11.yy",},
+    {"name":"sPointy12","order":14,"path":"sprites/sPointy12/sPointy12.yy",},
+    {"name":"sPointy13","order":15,"path":"sprites/sPointy13/sPointy13.yy",},
+    {"name":"sPointy14","order":16,"path":"sprites/sPointy14/sPointy14.yy",},
+    {"name":"sPointy15","order":17,"path":"sprites/sPointy15/sPointy15.yy",},
+    {"name":"sPointy2","order":4,"path":"sprites/sPointy2/sPointy2.yy",},
+    {"name":"sPointy3","order":5,"path":"sprites/sPointy3/sPointy3.yy",},
+    {"name":"sPointy4","order":6,"path":"sprites/sPointy4/sPointy4.yy",},
+    {"name":"sPointy5","order":7,"path":"sprites/sPointy5/sPointy5.yy",},
+    {"name":"sPointy6","order":8,"path":"sprites/sPointy6/sPointy6.yy",},
+    {"name":"sPointy7","order":9,"path":"sprites/sPointy7/sPointy7.yy",},
+    {"name":"sPointy8","order":10,"path":"sprites/sPointy8/sPointy8.yy",},
+    {"name":"sPointy9","order":11,"path":"sprites/sPointy9/sPointy9.yy",},
+    {"name":"sPointyWand","order":18,"path":"sprites/sPointyWand/sPointyWand.yy",},
+    {"name":"sSolidWall","order":2,"path":"sprites/sSolidWall/sSolidWall.yy",},
+    {"name":"sWall","order":3,"path":"sprites/sWall/sWall.yy",},
+>>>>>>> bullets-and-shooting
   ],
 }
