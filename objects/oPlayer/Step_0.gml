@@ -58,14 +58,14 @@ depth = -bbox_bottom; // bbox means Bounding Box
 #endregion
 
 
-//weapon firing
-#region
-	if shootTimer > 0 { shootTimer--; }
-	if shootKey && shootTimer <= 0
-	{
-		// Reset cooldown
+//shoot the weapon
+if shootTimer > 0 { shootTimer--; }
+if shootKey && shootTimer <= 0
+{
+	//reset the timer
 		shootTimer = shootCooldown;
 
+	//shooting
 		//create the bullet
 		var _xOffset = lengthdir_x(weaponLength + weaponOffsetDist, aimDir);
 		var _yOffset = lengthdir_y(weaponLength + weaponOffsetDist, aimDir);
@@ -76,5 +76,4 @@ depth = -bbox_bottom; // bbox means Bounding Box
 		{
 			dir = other.aimDir;
 		}
-	}
-#endregion
+}

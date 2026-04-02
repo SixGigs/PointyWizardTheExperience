@@ -32,7 +32,8 @@
 
 
 // Weapon info
-	bulletObj = oProjectile;
 	shootTimer = 0;
-	shootCooldown = 10;
+	shootCooldown = 9;
+
+	bulletObj = oBlueBullet;
 	weaponLength = sprite_get_bbox_right(sPointyWand);
